@@ -35,7 +35,7 @@ class HomeOne extends React.Component {
                 {/* Strategy Area */}
                 {/* <Strategy /> */}
                 {/* Who We Are Area */}
-                <WhoWeAre />
+                {/* <WhoWeAre /> */}
                 {/* CTR Area */}
                 {/* <Ctr /> */}
                 {/* Skill Area */}
@@ -47,7 +47,7 @@ class HomeOne extends React.Component {
                 {/* How We Work */}
                 {/* <HowWeWork /> */}
                 {/* Services Area */}
-                {/* <Services /> */}
+                <Services />
                 {/* Why We Are Different */}
                 <WhyWeDifferent />
                 {/* Work Area */}

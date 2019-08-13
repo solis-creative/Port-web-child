@@ -51,7 +51,8 @@ Default CSS
 $family: unquote("Poppins");
 $font_family: 'Poppins', sans-serif;
 // $template_color: #ff2c57;
-$template_color: #6cc2bc;
+// $template_color: #6cc2bc;
+$template_color: #54e3e9;
 @import url('https://fonts.googleapis.com/css?family=#{$family}:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 body {
@@ -117,8 +118,8 @@ img {
 }
 .btn-primary {
 	color: #fff;
-	background-color: $template_color;
-    border-color: $template_color;
+	background-color: #54e3e9;
+    border-color: #54e3e9;
     &:hover, &:focus, &.disabled:hover, &.disabled:focus {
         color: $template_color;
 	    background-color: #fff;
@@ -480,7 +481,7 @@ Main Banner CSS
     }
 }
 .item-bg-one {
-	background-image: url('../images/main-bg-1.jpg');
+	background-image: url('../images/cover.png');
 }
 .item-bg-two {
 	background-image: url('../images/main-bg-2.jpg');
@@ -501,13 +502,13 @@ Main Banner CSS
     text-align: center;
     
     h4 {
-        color: #fff;
+        color: black;
         font-weight: 200;
         font-size: 24px;
         letter-spacing: 1px;
     }
     h1 {
-        color: #fff;
+        color:black;
         font-size: 55px;
         margin-top: 25px;
         margin-bottom: 30px;
@@ -524,25 +525,25 @@ Main Banner CSS
         }
     }
     p {
-        color: #fff;
+        color: black;
         max-width: 730px;
         margin: auto;
         margin-bottom: 30px;
     }
     .btn {
         &:hover, &:focus {
-            border-color: #ffffff;
+            border-color: #89e0b8;
         }
     }
     .view-work {
-        background: transparent;
+        background: #89e0b8;
         border-color: #fff;
         margin-left: 10px;
 
         &:hover, &:focus {
             border-color: $template_color;
-            background: $template_color;
-            color: #ffffff;
+            background: #fff;
+            color: $template_color;
         }
     }
 }
@@ -1334,8 +1335,8 @@ Services Area CSS
             top: 0;
             width: 100%;
             height: 100%;
-            background: #000000;
-            opacity: .66;
+            // background: #000000;
+            // opacity: .66;
         }
         .icon {
             position: absolute;
@@ -1434,7 +1435,7 @@ Why We Are Different CSS
         padding: 15px 32px;
         margin: {
             right: 6px;
-            bottom: 0;
+            bottom: 6px;
         }
         cursor: pointer;
         background: transparent;

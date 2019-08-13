@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imgOne from '../../assets/images/different-img1.jpg';
+import imgOne from '../../assets/images/software_figure.png';
 import imgTwo from '../../assets/images/different-img2.jpg';
-import imgThree from '../../assets/images/different-img3.jpg';
+import imgThree from '../../assets/images/app_development.png';
 import imgFour from '../../assets/images/different-img4.jpg';
  
 class WhyWeDifferent extends React.Component {
@@ -44,7 +44,7 @@ class WhyWeDifferent extends React.Component {
                                     aria-controls="speed-flexibility"  
                                     htmlFor="tab1"
                                 >
-                                    Speed , flexibility
+                                    Dedicated Account Managers
                                 </label>
                                 {/* <!-- Tab 2 --> */}
                                 <label 
@@ -55,7 +55,7 @@ class WhyWeDifferent extends React.Component {
                                     aria-controls="profeesional-work"  
                                     htmlFor="tab2"
                                 >
-                                    Profeesional work
+                                    Free Initial Consultation
                                 </label>
                                 {/* <!-- Tab 3 --> */}
                                 <label 
@@ -66,7 +66,7 @@ class WhyWeDifferent extends React.Component {
                                     aria-controls="experienced-staff"  
                                     htmlFor="tab3"
                                 >
-                                    Experienced Staff
+                                    Design Advice
                                 </label>
                                 {/* <!-- Tab 4 --> */}
                                 <label 
@@ -77,7 +77,7 @@ class WhyWeDifferent extends React.Component {
                                     aria-controls="custom-support"  
                                     htmlFor="tab4"
                                 >
-                                    Custom Support
+                                    Expertise In Different Areas
                                 </label>
 
                                 <div className="tab-panels">
@@ -85,7 +85,7 @@ class WhyWeDifferent extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
-                                                    <h4>Speed , flexibility</h4>
+                                                    <h4>Dedicated Account Managers</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                                     <ul>
                                                         <li><i className="fa fa-check"></i>Creative Design</li>
@@ -112,7 +112,7 @@ class WhyWeDifferent extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
-                                                    <h4>Profeesional work</h4>
+                                                    <h4>Free Initial Consultation</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                                     <ul>
                                                         <li><i className="fa fa-check"></i>Creative Design</li>
@@ -139,7 +139,7 @@ class WhyWeDifferent extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="why-we-different-text">
-                                                    <h4>Experienced staff</h4>
+                                                    <h4>Design Advice</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                                     <ul>
                                                         <li><i className="fa fa-check"></i>Creative Design</li>
