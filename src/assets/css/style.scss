@@ -374,7 +374,7 @@ Main Header CSS
 	left: 0;
 	width: 100%;
 	z-index: 2;
-    background: black !important;
+    background: white !important;
     opacity: .77;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -393,7 +393,7 @@ Main Header CSS
 }
 .navbar-light {
     .navbar-brand {
-        color: #ffffff;
+        color: black;
         font-weight: 600;
         text-transform: uppercase;
 
@@ -419,7 +419,7 @@ Main Header CSS
             }
 
             .nav-link {
-                color: #ffffff;
+                color: black;
                 padding-right: 0;
                 padding-left: 0;
                 &.active, &.show, &:hover, &:focus {
