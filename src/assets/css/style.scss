@@ -373,7 +373,8 @@ Main Header CSS
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	background: transparent !important;
+    background: black !important;
+    opacity: .77;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -474,8 +475,8 @@ Main Banner CSS
         top: 0;
         width: 100%;
         height: 100%;
-        background: #000;
-        opacity: .77;
+        // background: #000;
+        // opacity: .88;
     }
 }
 .item-bg-one {
@@ -544,6 +545,20 @@ Main Banner CSS
             color: #ffffff;
         }
     }
+}
+#text-para-img{
+    background-image: url('../images/text-para.png');
+    background-position: 70% 25%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+    position: relative;
+    top: -40%;
+    right: -50%;
+    width: 30vw;
+    height: 40vh;
 }
 .home-slides {
     .owl-controls {

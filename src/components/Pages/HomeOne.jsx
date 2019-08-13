@@ -31,29 +31,29 @@ class HomeOne extends React.Component {
                 {/* Welcome Area */}
                 <Welcome />
                 {/* About Area */}
-                <About />
+                {/* <About /> */}
                 {/* Strategy Area */}
-                <Strategy />
+                {/* <Strategy /> */}
                 {/* Who We Are Area */}
                 <WhoWeAre />
                 {/* CTR Area */}
-                <Ctr />
+                {/* <Ctr /> */}
                 {/* Skill Area */}
-                <Skill />
+                {/* <Skill /> */}
                 {/* Fact Area */}
-                <Funfact />
+                {/* <Funfact /> */}
                 {/* Team Area */}
-                <Team />
+                {/* <Team /> */}
                 {/* How We Work */}
-                <HowWeWork />
+                {/* <HowWeWork /> */}
                 {/* Services Area */}
-                <Services />
+                {/* <Services /> */}
                 {/* Why We Are Different */}
                 <WhyWeDifferent />
                 {/* Work Area */}
                 <Work />
                 {/* Price Area */}
-                <Price />
+                {/* <Price /> */}
                 {/* FAQ Area */}
                 <Faq />
                 {/* Testimonials Area */}
@@ -61,7 +61,7 @@ class HomeOne extends React.Component {
                 {/* Blog Area */}
                 <Blog />
                 {/* Partner Area */}
-                <Partner />
+                {/* <Partner /> */}
                 {/* Subscribe Area */}
                 <Subscribe />
                 {/* Contact Area */}
