@@ -4,7 +4,7 @@ import imgTwo from '../../assets/images/app_development.png';
 import imgThree from '../../assets/images/seo.png';
 import imgFour from '../../assets/images/hosting.png';
 import imgFive from '../../assets/images/software_figure.png';
-import imgSix from '../../assets/images/services-img6.jpg';
+import imgSix from '../../assets/images/marketing.png';
 
  
 class Services extends React.Component {
@@ -34,6 +34,19 @@ class Services extends React.Component {
                         <div className="col-lg-4 col-md-2">
                             <div className="single-services">
                                 <div className="services-img">
+                                    <img src={imgFour} alt="services-img" />
+                                </div>
+                                
+                                <div className="services-content">
+                                    <h3>Hosting</h3>
+                                    <p>With fast and reliable hosting whether you have a small blog or large company, leave it to us. </p>
+                                </div>
+                            </div>
+                        </div>   
+
+                        <div className="col-lg-4 col-md-2">
+                            <div className="single-services">
+                                <div className="services-img">
                                     <img src={imgTwo} alt="services-img" />
                                 </div>
                                 
@@ -44,18 +57,6 @@ class Services extends React.Component {
                             </div>
                         </div>
                         
-                        <div className="col-lg-4 col-md-2">
-                            <div className="single-services">
-                                <div className="services-img">
-                                    <img src={imgFour} alt="services-img" />
-                                </div>
-                                
-                                <div className="services-content">
-                                    <h3>Hosting</h3>
-                                    <p>With fast and reliable hosting whether you have a small blog or large company, leave it to us. </p>
-                                </div>
-                            </div>
-                        </div>   
 
                         <div className="col-lg-4 col-md-2">
                             <div className="single-services">
@@ -73,7 +74,7 @@ class Services extends React.Component {
                         <div className="col-lg-4 col-md-2">
                             <div className="single-services">
                                 <div className="services-img">
-                                    <img src={imgThree} alt="services-img" />
+                                    <img src={imgSix} alt="services-img" />
                                 </div>
                                 
                                 <div className="services-content">

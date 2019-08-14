@@ -1303,6 +1303,7 @@ Services Area CSS
 	text-align: center;
 	position: relative;
     transition: .4s;
+    height: 600px;
 
     &:hover {
         box-shadow: unset;
@@ -1344,6 +1345,9 @@ Services Area CSS
             left: 0;
             width: 100%;
             margin-top: -30px;
+        }
+        img{
+            padding: 20px;
         }
     }
     i {

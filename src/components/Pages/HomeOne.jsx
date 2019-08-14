@@ -55,7 +55,7 @@ class HomeOne extends React.Component {
                 {/* Price Area */}
                 {/* <Price /> */}
                 {/* FAQ Area */}
-                <Faq />
+                {/* <Faq /> */}
                 {/* Testimonials Area */}
                 <Testimonial />
                 {/* Blog Area */}
@@ -63,12 +63,12 @@ class HomeOne extends React.Component {
                 {/* Partner Area */}
                 {/* <Partner /> */}
                 {/* Subscribe Area */}
-                <Subscribe />
+                {/* <Subscribe /> */}
                 {/* Contact Area */}
                 <Contact />
                 {/* Footer Area */}
                 <Footer />
-                <GoTop scrollStepInPx="50" delayInMs="16.66" />
+                <GoTop scrollStepInPx="100" delayInMs="16.66" />
             </React.Fragment>
         );
     }
