@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "090da80bd84c1d799d89",
+    "revision": "6948b656024ea6f9c599",
     "url": "/static/css/main.b077d700.chunk.css"
   },
   {
@@ -36,36 +36,36 @@ self.__precacheManifest = [
     "url": "/static/media/main-bg-2.f6e00308.jpg"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "090da80bd84c1d799d89",
-    "url": "/static/js/main.a52870ab.chunk.js"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "6948b656024ea6f9c599",
+    "url": "/static/js/main.d46a1717.chunk.js"
   },
   {
     "revision": "623cdc5fa974b7f24cfc0822ae87bad4",
     "url": "/static/media/text-para.623cdc5f.png"
   },
   {
-    "revision": "e90cd09b4443096ff59e9bed2242b883",
-    "url": "/static/media/cover.e90cd09b.png"
-  },
-  {
     "revision": "77ec1b528f027a0e5f71d229f208aef1",
     "url": "/static/media/about-strategy.77ec1b52.jpg"
+  },
+  {
+    "revision": "e90cd09b4443096ff59e9bed2242b883",
+    "url": "/static/media/cover.e90cd09b.png"
   },
   {
     "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
@@ -96,15 +96,15 @@ self.__precacheManifest = [
     "url": "/static/media/hosting.89b72b9e.png"
   },
   {
-    "revision": "fb7c78f6087f82d3fabcd5325667f151",
-    "url": "/static/media/marketing.fb7c78f6.png"
+    "revision": "b4effa4fb3223fbdd7532f664dffc416",
+    "url": "/static/media/marketing.b4effa4f.png"
   },
   {
     "revision": "bbb87f16a047c38567af",
     "url": "/static/css/2.f2cf786b.chunk.css"
   },
   {
-    "revision": "37e506e91f71b31ba2ab8cedec4dce5c",
+    "revision": "e1f6abdc67d9ce9b7137fed593121869",
     "url": "/index.html"
   }
 ];
