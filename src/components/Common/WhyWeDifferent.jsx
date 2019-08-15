@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imgOne from '../../assets/images/software_figure.png';
-import imgTwo from '../../assets/images/different-img2.jpg';
-import imgThree from '../../assets/images/app_development.png';
-import imgFour from '../../assets/images/different-img4.jpg';
+import imgOne from '../../assets/images/account_manager.png';
+import imgTwo from '../../assets/images/seo.png';
+import imgThree from '../../assets/images/design_advice.png';
+import imgFour from '../../assets/images/experts.png';
  
 class WhyWeDifferent extends React.Component {
 

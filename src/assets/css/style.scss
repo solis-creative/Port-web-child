@@ -667,6 +667,7 @@ Welcome Area CSS
     position: relative;
     overflow: hidden;
     transition: .4s;
+    height: 300px;
     &:hover {
         box-shadow: unset;
         transform: translateX(5px);

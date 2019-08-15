@@ -61,7 +61,7 @@ class Services extends React.Component {
                         <div className="col-lg-4 col-md-2">
                             <div className="single-services">
                                 <div className="services-img">
-                                    <img src={imgThree} alt="services-img" />
+                                    <img src={imgFive} alt="services-img" />
                                 </div>
                                 
                                 <div className="services-content">
@@ -87,7 +87,7 @@ class Services extends React.Component {
                         <div className="col-lg-4 col-md-2">
                             <div className="single-services">
                                 <div className="services-img">
-                                    <img src={imgFive} alt="services-img" />
+                                    <img src={imgThree} alt="services-img" />
                                 </div>
                                 
                                 <div className="services-content">
