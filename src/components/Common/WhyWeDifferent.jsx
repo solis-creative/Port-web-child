@@ -29,7 +29,7 @@ class WhyWeDifferent extends React.Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>Why We <span>Are Different</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>We understand that theres many companies who provide the exact same services. But we wanted to show you a few things that make us stand out from the crowd.</p>
                     </div>
                 
                     <div className="row">

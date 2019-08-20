@@ -1900,7 +1900,37 @@ Blog Area CSS
         }
     }
 }
+.work-tech-spec{
+    margin: {
+        bottom: 25px;
+        top: 25px;
+    }
+    background: #f4f4f4;
+    padding: 30px;
+    font-size: 17px;
+    border-left: 4px solid $template_color;
 
+    p {
+        color: #000000;
+    }
+
+    h6 {
+        font-size: 20px;
+        color: #000000;
+
+    }
+    ul{
+        padding: .9em;
+
+        li {
+            padding-top: .4em;
+        }
+    }
+    position: fixed;
+    left: 10px;
+    top: 35%;
+
+}
 /*
 ==============================
 Partner Area CSS
@@ -2178,10 +2208,49 @@ Blog Details Area CSS
     .article-text {
         padding: 30px;
 
+        .colour-wheel-arroe{
+            border-radius: 50px;
+            border-right-color: black;
+            border-top-color: #1e1e1e;
+            border-bottom-color: #ffffff;
+            border-left-color: lightgray;
+            border-width: 50px;
+            border-style: solid;
+            height: 0px;
+            width: 0px;
+            margin: auto;
+            
+            /* To ratate */
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .colour-wheel-pd{
+            border-radius: 50px;
+            border-right-color: #fdd354;
+            border-top-color: white;
+            border-bottom-color: lightgray;
+            border-left-color: black;
+            border-width: 50px;
+            border-style: solid;
+            height: 0px;
+            width: 0px;
+            margin: auto;
+            
+            /* To ratate */
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
         ul {
             li {
                 display: inline-block;
                 margin-right: 4px;
+                margin-top: 4px;
             }
         }
         .category {

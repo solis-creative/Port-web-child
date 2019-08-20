@@ -54,11 +54,11 @@ class Navigation extends React.Component {
 
     goToId = (e) => {
         window.location.hash = e;
-        window.location.refresh(true);
+        window.location.reload(true);
     }
 
     renderMenus = () => {
-        if (window.location.pathname === '/blog' || window.location.pathname === '/blog-details'){
+        if (window.location.pathname === '/blog' || window.location.pathname === '/blog-details' || window.location.pathname === '/blog-details-pd'){
             return (
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
@@ -139,7 +139,7 @@ class Navigation extends React.Component {
                     <Link 
                         className="navbar-brand" 
                         to="/"
-                        onClick={() => window.location.refresh()}
+                        onClick={() => window.location.reload()}
                     >
                         <span>SOLIS</span> Creative
                     </Link>

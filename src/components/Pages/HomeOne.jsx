@@ -1,6 +1,7 @@
 import React from 'react'
 import MainBanner from '../PageBanners/MainBannerOne';
 import Welcome from '../Common/Welcome';
+import Navigation from '../Navigation/Navigation';
 import About from '../Common/About';
 import Strategy from '../Common/Strategy';
 import WhoWeAre from '../Common/WhoWeAre';
@@ -26,6 +27,8 @@ class HomeOne extends React.Component {
     render(){
         return (
             <React.Fragment>
+                <Navigation />
+
                 {/* Main Banner */}
                 <MainBanner />
                 {/* Welcome Area */}
