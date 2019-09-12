@@ -1,17 +1,17 @@
 {
-  "main.css": "/static/css/main.68fec01c.chunk.css",
-  "main.js": "/static/js/main.be6899ce.chunk.js",
-  "main.js.map": "/static/js/main.be6899ce.chunk.js.map",
+  "main.css": "/static/css/main.ecd38968.chunk.css",
+  "main.js": "/static/js/main.e617ae7a.chunk.js",
+  "main.js.map": "/static/js/main.e617ae7a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/css/2.f2cf786b.chunk.css": "/static/css/2.f2cf786b.chunk.css",
-  "static/js/2.4944dedc.chunk.js": "/static/js/2.4944dedc.chunk.js",
-  "static/js/2.4944dedc.chunk.js.map": "/static/js/2.4944dedc.chunk.js.map",
+  "static/js/2.10ecaf8b.chunk.js": "/static/js/2.10ecaf8b.chunk.js",
+  "static/js/2.10ecaf8b.chunk.js.map": "/static/js/2.10ecaf8b.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.a26df215c423b72cae2902e3d9802766.js": "/precache-manifest.a26df215c423b72cae2902e3d9802766.js",
+  "precache-manifest.e2208f2e13eb90b1cf65be68790a5705.js": "/precache-manifest.e2208f2e13eb90b1cf65be68790a5705.js",
   "service-worker.js": "/service-worker.js",
   "static/css/2.f2cf786b.chunk.css.map": "/static/css/2.f2cf786b.chunk.css.map",
-  "static/css/main.68fec01c.chunk.css.map": "/static/css/main.68fec01c.chunk.css.map",
+  "static/css/main.ecd38968.chunk.css.map": "/static/css/main.ecd38968.chunk.css.map",
   "static/media/style.scss": "/static/media/pattern.a621840a.png",
   "static/media/account_manager.png": "/static/media/account_manager.ba11ee82.png",
   "static/media/app_development.png": "/static/media/app_development.3d7b9a04.png",
@@ -28,5 +28,6 @@
   "static/media/seo.png": "/static/media/seo.f6b08958.png",
   "static/media/software_figure.png": "/static/media/software_figure.87aa8004.png",
   "static/media/text-para.png": "/static/media/text-para.623cdc5f.png",
-  "static/media/web_development.png": "/static/media/web_development.a75dfa8d.png"
+  "static/media/web_development.png": "/static/media/web_development.a75dfa8d.png",
+  "static/media/wish-mockup.png": "/static/media/wish-mockup.d0f38009.png"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
-    "url": "/static/media/ctr-bg.d356088c.jpg"
+    "revision": "77ec1b528f027a0e5f71d229f208aef1",
+    "url": "/static/media/about-strategy.77ec1b52.jpg"
   },
   {
-    "revision": "a994ce9954fc0a7cdb39",
-    "url": "/static/css/main.68fec01c.chunk.css"
+    "revision": "73a94f32da99655ff720",
+    "url": "/static/css/main.ecd38968.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/promo-video.473a71ab.mp4"
   },
   {
-    "revision": "da760d114d4786428592",
-    "url": "/static/js/2.4944dedc.chunk.js"
+    "revision": "d63326155dd7068d7144",
+    "url": "/static/js/2.10ecaf8b.chunk.js"
   },
   {
     "revision": "f6b08958f8ac107430e0dcadae326daa",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/static/media/pd-mockup.1643faf1.png"
   },
   {
+    "revision": "d0f380093caaf38bce5419dbf78a3c94",
+    "url": "/static/media/wish-mockup.d0f38009.png"
+  },
+  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -60,32 +64,32 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "e90cd09b4443096ff59e9bed2242b883",
-    "url": "/static/media/cover.e90cd09b.png"
-  },
-  {
-    "revision": "77ec1b528f027a0e5f71d229f208aef1",
-    "url": "/static/media/about-strategy.77ec1b52.jpg"
-  },
-  {
-    "revision": "a994ce9954fc0a7cdb39",
-    "url": "/static/js/main.be6899ce.chunk.js"
-  },
-  {
     "revision": "623cdc5fa974b7f24cfc0822ae87bad4",
     "url": "/static/media/text-para.623cdc5f.png"
+  },
+  {
+    "revision": "73a94f32da99655ff720",
+    "url": "/static/js/main.e617ae7a.chunk.js"
+  },
+  {
+    "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
+    "url": "/static/media/ctr-bg.d356088c.jpg"
   },
   {
     "revision": "d356088ca7c4ab037483fda5cd9fa1a6",
     "url": "/static/media/funfact-bg.d356088c.jpg"
   },
   {
-    "revision": "a621840a945158354f4fe7799bf5ae8b",
-    "url": "/static/media/pattern.a621840a.png"
+    "revision": "e90cd09b4443096ff59e9bed2242b883",
+    "url": "/static/media/cover.e90cd09b.png"
   },
   {
     "revision": "6ecdd7d69f2025ef7aff0bdbfc1f6a6a",
     "url": "/static/media/dott.6ecdd7d6.jpg"
+  },
+  {
+    "revision": "a621840a945158354f4fe7799bf5ae8b",
+    "url": "/static/media/pattern.a621840a.png"
   },
   {
     "revision": "a75dfa8dea85f606048c440d7bc8456a",
@@ -128,11 +132,11 @@ self.__precacheManifest = [
     "url": "/static/media/mockup-lizzy.879c6a8d.png"
   },
   {
-    "revision": "da760d114d4786428592",
+    "revision": "d63326155dd7068d7144",
     "url": "/static/css/2.f2cf786b.chunk.css"
   },
   {
-    "revision": "865e96e7652dbc9f3146f4168a8231ce",
+    "revision": "a860633c030e38ce1a7f2d3ecefc07ba",
     "url": "/index.html"
   }
 ];
