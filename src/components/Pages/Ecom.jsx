@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BlogDetailsBanner from '../PageBanners/BlogDetailsBanner';
-import image from "../../assets/images/wish-mockup.png";
+import image from "../../assets/images/zen.png";
 import clientImageOne from "../../assets/images/client-avatar1.jpg";
 import clientImageTwo from "../../assets/images/client-avatar2.jpg";
 import clientImageThree from "../../assets/images/client-avatar3.jpg";
 import Footer from '../Common/Footer';
  
-class BlogDetailsWish extends React.Component {
+class Ecom extends React.Component {
     render(){
         return (
             <React.Fragment>
@@ -22,50 +22,51 @@ class BlogDetailsWish extends React.Component {
                                     <div className="article-img">
                                         <img 
                                             src={image}
-                                            alt="blog-details" 
+                                            alt="zen-details" 
                                         />
                                     </div>
                                     <div className="work-tech-spec">
                                         <h6>Technologies and Stack</h6>
                                         <ul>
-                                            <li>React JS</li>
-                                            <li>React Native</li>
-                                            <li>Expo</li>
-                                            <li>Redux</li>
-                                            <li>JSX</li>
+                                            <li>Node JS</li>
+                                            <li>Express</li>
+                                            <li>MongoDB</li>
+                                            <li>Mongoose</li>
+                                            <li>Atlas</li>
                                             
                                         </ul>
                                     </div>
                                     <div className="article-text">
                                         <ul className="category">
-                                            <li><Link to="#">Website Development</Link></li>
+                                            <li><Link to="#">Database Architecture</Link></li>
                                             <li><Link to="#">Software Engineering</Link></li>
                                             <li><Link to="#">Designing</Link></li>
-                                            <li><Link to="#">Hosting</Link></li>
-                                            <li><Link to="#">SEO</Link></li>
+                                            <li><Link to="#">In-House System</Link></li>
+                                            
                                         </ul>
                                         
-                                        <h4 className="title">Wish Lounge</h4>
+                                        <h4> ZEN Distributors </h4>
                                         
-                                        <p>Wish Lounge is a Shisha Lounge and Dessert Bar located in London and needed a refresh on their website, to keep customers happy and updated with events and live sports and food.</p>
+                                        <p>Zen Distributors is a clothes distribution outlet with over 50 up and coming brands which they distribute over the UK   </p>
+                                        <p>We offered the client a straight forward economical web application using the product code for the items. </p>
+                                        <h5>Stock Checker</h5>
+
+                                        <p>The client was looking for a convenient way for their staff to look for stock on a system and where it was placed that gives them information on the state of the products and the availability of the product. We reviewed the technology available to the company which was the mobile phones, one tablet and a computer in the main office.  </p>
+
+                                        <h5>System Design/UI</h5>
+                                        <p>The client wanted a system where staff could easily search for items and query them and edit the state of them i.e. Check if the products are in stock in the warehouse or not. So the design team came up with a simple search bar which would lead to a page for all stock information   </p>
+                                        <p> The software engineers used a full stack node approach using MongoDB (A database tool) as the backend, Nodejs as the frontend and Moongoose as the middleware. The reason why we choice this combination is because it is simple and effective especially using MongoDb as the backend rather than the MySQL as it would be more efficient due to its logical and easy to use framework. Then using Node for the frontend using Express Allows us to create a neat and tidy front end to display the data via mongoose.   </p>
+
                                         
-                                        <h5>Website</h5>
+                                        <h5>Future Applications </h5>
 
-                                        <p>The website is simple yet effective. The website clearly states opening times, location and the menu. This was the goal from the client stating that they would be happy for everyone and anyone to be able 
-                                            to use this website, locate where they are and also knowing what is on the menu; which was done successfuly and effectivly as shown by the SEO. Further to this, a Google API was used for the on match scheduling system
-                                            to show to customers when and what is shown Live at the lounge, such as the sports of Football and MMA. </p>
+                                        <p>
+                                            As the company is still growing, we designed as system that allows the Zen Distributors to scale their internal systems as they grow also.
 
-                                        <h6>Colour Scheme</h6>
-                                        <div className="colour-wheel-wish"></div>
-                                        <p className="mb-0">The colour scheme was implemented and used in transition with the Menu and theme that is created by the interior of the Lounge it self. The colour scheme was an idea made by us at Solis Creative and also the owner,
-                                        we visited the site of the Lounge and had a look at the interior and we tried our best to copy and show that in the website and the works of the menu that was also designed.</p>
-                                        
-                                        <h5>SEO</h5>
+                                            At the moment the company can edit their stock listings through the main computer to state if they have it or not but if they wanted to have that functionality on many different devices and have more hands-on data manipulation such as scanning items to update lists, the company can come back to us to install a whole new inventory system.
 
-                                        <p>Further to all of this, we implemented SEO to the website and also to the business it self, using many techniques online we can show that the traffice in 24 hours grew by approx. 60%. If you search 'Wish Lounge' now on Google or Google Maps, it is the first 
-                                            official bar to appear on the Google business section, showing directions, opening times, images and more. 
+                                            Which we would gladly facilitate.
 
-                                            Reviews have had also increased from 3 a week, to 11 a week. 
                                         </p>
 
                                         {/* <blockquote className="blockquote">
@@ -75,16 +76,7 @@ class BlogDetailsWish extends React.Component {
                                         <div className="author-share">
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6">
-                                                    <div className="article-author">
-                                                        <div className="author-img">
-                                                            <img 
-                                                                src={clientImageOne}
-                                                                alt="client"
-                                                            />
-                                                        </div>
-
-
-                                                    </div>
+                                                    
                                                 </div>
                                                 
                                                 <div className="col-lg-6 col-md-6">
@@ -111,4 +103,4 @@ class BlogDetailsWish extends React.Component {
     }
 }
  
-export default BlogDetailsWish;
+export default Ecom;

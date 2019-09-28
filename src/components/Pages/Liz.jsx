@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BlogDetailsBanner from '../PageBanners/BlogDetailsBanner';
-import image from "../../assets/images/wish-mockup.png";
+import image from "../../assets/images/mockup-lizzy.png";
 import clientImageOne from "../../assets/images/client-avatar1.jpg";
 import clientImageTwo from "../../assets/images/client-avatar2.jpg";
 import clientImageThree from "../../assets/images/client-avatar3.jpg";
 import Footer from '../Common/Footer';
  
-class BlogDetailsWish extends React.Component {
+class Liz extends React.Component {
     render(){
         return (
             <React.Fragment>
@@ -28,44 +28,42 @@ class BlogDetailsWish extends React.Component {
                                     <div className="work-tech-spec">
                                         <h6>Technologies and Stack</h6>
                                         <ul>
-                                            <li>React JS</li>
-                                            <li>React Native</li>
-                                            <li>Expo</li>
-                                            <li>Redux</li>
-                                            <li>JSX</li>
+                                            
+                                            <li>MongoDB</li>
+                                            <li>React Native </li>
+                                            
                                             
                                         </ul>
                                     </div>
                                     <div className="article-text">
                                         <ul className="category">
-                                            <li><Link to="#">Website Development</Link></li>
+                                            <li><Link to="#">Database Architecture</Link></li>
                                             <li><Link to="#">Software Engineering</Link></li>
                                             <li><Link to="#">Designing</Link></li>
-                                            <li><Link to="#">Hosting</Link></li>
-                                            <li><Link to="#">SEO</Link></li>
+                                            <li><Link to="#">In-House System</Link></li>
+                                            
                                         </ul>
                                         
-                                        <h4 className="title">Wish Lounge</h4>
+                                        <h4> Lizzy's Car Wash</h4>
                                         
-                                        <p>Wish Lounge is a Shisha Lounge and Dessert Bar located in London and needed a refresh on their website, to keep customers happy and updated with events and live sports and food.</p>
+                                        <p>Lizzy’s Car Wash is a high-end car maintenance company which specialises in detailing up- scale cars. Recently the business has had rapid growth and continues to see more success every week. That was a driving force on why they came to us for a technology solution to keep track of all their incoming and outgoing vehicles and how much they’re taking from each car they work on.  </p>
                                         
-                                        <h5>Website</h5>
+                                        <h5>System Design/UI</h5>
 
-                                        <p>The website is simple yet effective. The website clearly states opening times, location and the menu. This was the goal from the client stating that they would be happy for everyone and anyone to be able 
-                                            to use this website, locate where they are and also knowing what is on the menu; which was done successfuly and effectivly as shown by the SEO. Further to this, a Google API was used for the on match scheduling system
-                                            to show to customers when and what is shown Live at the lounge, such as the sports of Football and MMA. </p>
-
-                                        <h6>Colour Scheme</h6>
-                                        <div className="colour-wheel-wish"></div>
-                                        <p className="mb-0">The colour scheme was implemented and used in transition with the Menu and theme that is created by the interior of the Lounge it self. The colour scheme was an idea made by us at Solis Creative and also the owner,
-                                        we visited the site of the Lounge and had a look at the interior and we tried our best to copy and show that in the website and the works of the menu that was also designed.</p>
+                                        <p>The design team created a system where they facilitated the customer process over the course of getting their car washed. The first step is taking the name and number plate of the customers car, then the staff will choose which cleaning option the customer opted for. If there are any other requests from the customer, it could be noted in the notes section.</p>
                                         
-                                        <h5>SEO</h5>
+                                        <p>There is a form section which is optional for the customer to put details for collection (name, number etc.). This functionality follows into the final stage of service where the departure details will be noted down. The last functionality will allow the user will allow the user to receive their invoice and the user can show if the customer has paid or not.</p>
+                                        <p>This technology solution can be used on any Apple and Andorid mobile device. </p> 
 
-                                        <p>Further to all of this, we implemented SEO to the website and also to the business it self, using many techniques online we can show that the traffice in 24 hours grew by approx. 60%. If you search 'Wish Lounge' now on Google or Google Maps, it is the first 
-                                            official bar to appear on the Google business section, showing directions, opening times, images and more. 
+                                         <h5>Software Development </h5>
 
-                                            Reviews have had also increased from 3 a week, to 11 a week. 
+                                        <p>
+                                        After the User Interface was designed the software development took two weeks to test and roll out for the car wash to use.
+
+                                        The app was made using React-Native for the frontend and MySQL as the database which the company will store all their data.
+
+                                        The client requested that the programe be able to work on IOS and Andorid as their staff will acess to both softwares when working. This was no problem for the development team as React-Native is well suited for both platforms. 
+
                                         </p>
 
                                         {/* <blockquote className="blockquote">
@@ -75,16 +73,7 @@ class BlogDetailsWish extends React.Component {
                                         <div className="author-share">
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6">
-                                                    <div className="article-author">
-                                                        <div className="author-img">
-                                                            <img 
-                                                                src={clientImageOne}
-                                                                alt="client"
-                                                            />
-                                                        </div>
-
-
-                                                    </div>
+                                                    
                                                 </div>
                                                 
                                                 <div className="col-lg-6 col-md-6">
@@ -111,4 +100,4 @@ class BlogDetailsWish extends React.Component {
     }
 }
  
-export default BlogDetailsWish;
+export default Liz;

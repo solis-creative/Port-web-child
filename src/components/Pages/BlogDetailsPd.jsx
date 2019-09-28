@@ -56,13 +56,9 @@ class BlogDetailsPd extends React.Component {
                                         <p>Petrichor Designs Ltd. also known as 'Pd.' is a construction and interior design company based in Central London and Surrey, where they have been working many years in the industry using classic methods of time keeping and project managment. However, Pd approached Solis Creative, to develop a faster, more effcient software and eco-system through the day-to-day process. Below we will shed light on how we at Solis, created an Application, In-house Software and Website to benefit in all areas of the work.</p>
                                         
                                         <h5>Website</h5>
-
-                                        <p>To show case their awesome idea that will bring the world one step closer to cordless, they requested a sleek simple yet professional website to be designed and developed. 
-                                            All designs are negotiated and brought back and forth to the client and us, the design advice played a role in the final colour scheme and images that were used.</p>
-
-                                        <h6>Colour Scheme omskmskm</h6>
+                                        <h6>Colour Scheme</h6>
                                         <div className="colour-wheel-pd"></div>
-                                        <p className="mb-0">Within the basic website development to showcase the product fo LAER and Product power solutions, a backend system was integrated using Amazon Web Servers and Python Scripts running on Ubuntu, to allow all information about Laptops being held, such as: the brand details including make and model, power capacity and power output.</p>
+                                        <p className="mb-0">Petrichor Designs had the goal of showcasing their work they have worked on but also keeping the contact with clients. The client describes their industry field with human contact and not working on the website or over the phone, so they wanted to avoid bookings and consultation online; as they can sell their product and services in person much better. So, keeping that in mind the website was designed is a simple 3 page website that always directs the user to the end goal of contacting Pd, not leaving the site. </p>
                                         
                                         <p> This database hold the information to allow the device to detect the voltage output and input, therefore increading the life span of the product it self and the device it is charging, as no over or under charging will happen.</p>
 
